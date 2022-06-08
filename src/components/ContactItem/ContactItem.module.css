@@ -1,0 +1,16 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+
+.contactItem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
